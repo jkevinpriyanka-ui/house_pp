@@ -8,7 +8,6 @@ import os
 st.set_page_config(page_title="House Recommendations", page_icon="🏠", layout="wide")
 st.title("🏠 House Recommendations")
 
-# --- Safe paths ---
 csv_path = os.path.join(os.path.dirname(__file__), "..", "house_data_with_predictions.csv")
 pipeline_path = os.path.join(os.path.dirname(__file__), "..", "best_pipeline.joblib")
 csv_path = os.path.abspath(csv_path)
